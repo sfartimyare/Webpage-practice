@@ -7,6 +7,7 @@
 body {
     font-family: sans-serif;
     color: white;
+    background-color: #BEDCFE;
 }
 
 a {
@@ -47,7 +48,7 @@ p {
 
 .container {
     max-width: 1200px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin: 0 auto;
     /* overflow: visible; */
 }
@@ -85,3 +86,146 @@ p {
     color: #9867c5;
     border-bottom: 3px solid #9867c5;
 }
+
+
+/* This is the end of the NAVBAR
+Down below starting the ShowCase Area! */
+
+
+.showcase {
+    height: 350px;
+    background-color: rgb(136, 9, 136);
+}
+
+.showcase p {
+    margin-bottom: 30px;
+}
+
+.showcase img {
+    box-shadow: 7px 7px 7px rbga(0, 0, 0, 0.2);
+    width: 80px;
+    
+}
+
+.showcase-form {
+    padding-left: 7px;
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+}
+
+.grid-item-1,
+.grid-item-2 {
+    position: relative;
+    top: 50%;
+}
+
+.showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 6px;
+    background-color: #9867c5;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+/* LOWER-CONTAINER SECTION */
+
+.lower-container {
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+    /* border: 3px solid red; */
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.text {
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats {
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.stat {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+
+/* The Start of the Testinomials! */
+
+.testimonials {
+    color: black;
+    padding: 40px;
+}
+
+.testimonials img {
+    height: 100%;
+    clip-path: circle();
+    
+}
+
+.testimonials h3 {
+    text-align: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    color: white;
+    padding: 10px;
+    background-color: #016FB9;
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+    7px  7px 20px rgba(0, 0, 0, 0.2)
+}
+
+/* .circle {
+    background-color: transparent;
+    border:3px solid purple;
+    height:90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:90px;
+} */
