@@ -146,7 +146,7 @@ Down below starting the ShowCase Area! */
 /* LOWER-CONTAINER SECTION */
 
 .lower-container {
-    margin: 120px auto;
+    /* margin: 120px auto; */
     padding: 0;
     max-width: 1400px;
     /* border: 3px solid red; */
@@ -229,3 +229,20 @@ Down below starting the ShowCase Area! */
     -webkit-border-radius:50%;
     width:90px;
 } */
+
+/* Below Here WILl BE THE FOOTER */
+
+footer {
+    background-color: purple;
+    padding: 20px 0;
+}
+
+footer a {
+    padding: 0 10px;
+    color: white;
+}
+
+footer .flex {
+    display: flex;
+    align-items: center;
+}
